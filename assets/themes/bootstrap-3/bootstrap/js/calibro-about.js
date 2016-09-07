@@ -1,0 +1,1 @@
+$('.tlt').textillate({loop:true});

@@ -1,0 +1,110 @@
+<div id="postWrapper">
+    <div class="container">
+      {% if page.media.video %}
+      <div class="videoWrapper hidden-xs hidden-sm">
+        <video class="projectVideo" width="100%" height="auto" autoplay loop muted>
+          <source src="{{ BASE_PATH }}/assets/media/video/{{ page.media.video }}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      {% endif %}
+      {% if page.media.images %}
+      <div class="imagesWrapper hidden-xs hidden-sm">
+        <div id="carousel-{{ page.title | downcase }}" class="carousel slide" data-ride="carousel" data-pause="null">
+          <div class="carousel-inner" role="listbox">
+            {% for image in page.media.images %}
+              <div class="item {% if forloop.first %}active{% endif %}">
+                <img src="{{ BASE_PATH }}/assets/media/images/{{ image.name }}">
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      {% endif %}
+      <div class="row">
+        <div class="col-lg-3 col-lg-offset-8 col-md-5 col-md-offset-6 col-xs-12 col-sm-10 col-sm-offset-1">
+
+          <!-- {% if page.media.video %}
+            <video class="projectVideo visible-xs visible-sm" width="100%" height="auto" controls loop muted>
+              <source src="{{ BASE_PATH }}/assets/media/video/{{ page.media.video }}" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          {% endif %} -->
+          <!-- {% if page.media.images %}
+            <div id="carousel-{{ page.title | downcase }}" class="carousel slide visible-xs visible-sm" data-ride="carousel" data-pause="null">
+              <div class="carousel-inner" role="listbox">
+                {% for image in page.media.images %}
+                  <div class="item {% if forloop.first %}active{% endif %}">
+                    <img src="{{ BASE_PATH }}/assets/media/images/{{ image.name }}">
+                  </div>
+                {% endfor %}
+              </div>
+            </div>
+          {% endif %} -->
+          {% if page.media.images-mobile %}
+          <div id="mobile-slider-post" class="visible-xs visible-sm">
+            {% for image in page.media.images-mobile %}
+              <div>
+                <img width="100%" height="auto" style="padding:0px 10px;"data-lazy="{{ BASE_PATH }}/assets/media/images/mobile/{{ image.name }}">
+              </div>
+            {% endfor %}
+          </div>
+          {% endif %}
+
+            <h1>{{ page.project_title}}</h1>
+            <hr />
+            <p>
+              {{ page.content}}
+            </p>
+            {% if page.link %}
+            <p class="seeProject">
+            <a class="btn btn-default btn-round btn-block" href="{{ page.link}}" role="button" target="_blank">See Project</a>
+            </p>
+            {% endif %}
+            <div class="postNavigation visible-xs">
+            {% if page.next %}
+              <div class="prev">
+                <a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.project_title }}">
+                  <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+                </a>
+                <div class="navTitle">
+                  <a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.project_title }}">
+                  {{ page.next.project_title }}
+                  </a>
+                </div>
+              </div>
+            {% endif %}
+            {% if page.previous %}
+              <div class="next">
+                <div class="navTitle">
+                  <a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.project_title }}">
+                    {{ page.previous.project_title }}
+                  </a>
+                </div>
+                  <a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.project_title }}">
+                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                  </a>
+              </div>
+            {% endif %}
+
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div id="prjnext">
+  {% if page.previous %}
+    <a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">next</a></li>
+  {% else %}
+    <!-- <a>next</a> -->
+  {% endif %}
+</div>
+
+<div id="prjprev">
+  {% if page.next %}
+    <a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">prev</a>
+  {% else %}
+    <!-- <a>prev</a> -->
+  {% endif %}
+</div>

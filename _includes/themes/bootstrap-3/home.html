@@ -1,0 +1,99 @@
+<div id="map">
+</div>
+<div id="home" class="container">
+  <div class="row">
+    <div class="col-md-12 relative">
+        {{ content }}
+    </div>
+  </div>
+</div>
+<section id="projects" name="projects"></section>
+<div id="scrollWrapper" class="visible-md visible-lg">
+  <div id="projectsWrapper">
+    {% for post in site.categories.projects %}
+    <div class="projectBlock">
+    <div class="container">
+      {% if post.media.video %}
+      <div class="videoWrapper">
+        <video class="projectVideo" width="100%" height="auto" loop muted>
+            {% if forloop.first %}
+              <source src="{{ BASE_PATH }}/assets/media/video/{{ post.media.video }}" type="video/mp4">
+            {% else %}
+              <source data-src="{{ BASE_PATH }}/assets/media/video/{{ post.media.video }}" type="video/mp4">
+            {% endif %}
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      {% endif %}
+      {% if post.media.images %}
+      <div class="imagesWrapper">
+        <div id="carousel-{{ post.title | downcase }}" class="carousel-slick">
+          {% for image in post.media.images %}
+            <div>
+              <img width="100%" height="auto" data-lazy="{{ BASE_PATH }}/assets/media/images/{{ image.name }}">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+      <div class="row">
+        <div class="col-lg-3 col-lg-offset-8 col-md-5 col-md-offset-6">
+            <h1>{{ post.project_title}}</h1>
+            <hr />
+              {{ post.content}}
+              {% if post.link %}
+            <a class="btn btn-default btn-round" href="{{ post.link}}" role="button" target="_blank">See Project</a>
+            {% endif %}
+        </div>
+      </div>
+    </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- mobile -->
+  <div id="mobileWrapper" class="hidden-md hidden-lg">
+    <div id="mobile-slider">
+    {% for post in site.categories.projects %}
+      <div>
+        <img width="100%" height="auto" style="padding:0px 10px;" data-lazy="{{ BASE_PATH }}/assets/media/images/mobile_placeholder/{{post.media.placeholder}}">
+      </div>
+    {% endfor %}
+    </div>
+    <div id="mobile-container" class="container">
+      {% for post in site.categories.projects %}
+      <div class="row mobileTitle {% if forloop.first %}activeTitle{% endif %}">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 infoLink">
+              <h1>{{ post.project_title}}</h1>
+              {{ post.content}}
+          <a class="readMore" href="{{ BASE_PATH }}{{ post.url }}">Read More</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+<!-- end mobile -->
+
+<!-- <div id="aboutWrap" class="aboutHide"> -->
+<div id="aboutWrap" class="aboutHide animated fadeOut">
+  <div id="about" class="container">
+    {% for page in site.pages %}
+      {% if page.layout == 'about' %}
+        {% include themes/bootstrap-3/about.html %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<div id="contactus">
+    <a href="mailto:hello@calib.ro">
+      hello@calib.ro
+    </a>
+</div>
+
+<div id="aboutus">
+    <a>
+      about
+    </a>
+</div>
