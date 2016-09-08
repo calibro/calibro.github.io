@@ -1,6 +1,15 @@
 //check device
 var device = /Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent)
 
+//check os
+var OSName="Unknown OS";
+if (navigator.appVersion.indexOf("Win")!=-1) OSName="Windows";
+if (navigator.appVersion.indexOf("Mac")!=-1) OSName="MacOS";
+if (navigator.appVersion.indexOf("X11")!=-1) OSName="UNIX";
+if (navigator.appVersion.indexOf("Linux")!=-1) OSName="Linux";
+
+var friction = OSName!='MacOS'?30:1;
+
 //About page
 $('#aboutus').click(function(){
   if($('#aboutWrap').hasClass('fadeOut')){
@@ -156,7 +165,8 @@ $(window).scroll(function() {
 
    if($(window).scrollTop() + $(window).height() == $(document).height()) {
      $('#scrollWrapper').mousewheel(function(evt, chg) {
-        this.scrollLeft -= (chg);
+        this.scrollLeft -= (chg*friction);
+        evt.preventDefault();
 
         $('.projectBlock').each(function(i){
           var carousel = $(this).find('.carousel-slick');
@@ -181,8 +191,6 @@ $(window).scroll(function() {
 
           }
         })
-
-        evt.preventDefault();
         if( evt.deltaY > 0 && $(this).scrollLeft() == 0){
           $('#scrollWrapper').unmousewheel();
         }
@@ -211,7 +219,6 @@ if (userAgent .indexOf('safari')!=-1){
    }else if((userAgent .indexOf('opera')  > -1)||(userAgent .indexOf('opr')  > -1)){
      //browser is opera
    }else{
-    console.log("safari")
     $('.infoContent').addClass('infoContentAfter')
    }
 }
