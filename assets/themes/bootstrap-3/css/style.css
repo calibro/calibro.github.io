@@ -587,7 +587,7 @@ ul.navbar-nav {
 /* post */
 
 #postWrapper{
-  height:100vh;
+  min-height:100vh;
   margin-top: -70px;
   padding-top: 70px;
 }
