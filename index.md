@@ -10,4 +10,4 @@ custom_js: calibro-home.js
 
 ### focused on tailored data–driven experiences and research.
 
-<i class="fa fa-long-arrow-down arrowHome" aria-hidden="true"></i>
+<a href="#projects"><i class="fa fa-long-arrow-down arrowHome" aria-hidden="true"></i></a>
