@@ -72,7 +72,7 @@ body{
 
 p a {
   color: #fff;
-  border-bottom: 1px solid #646464;
+  border-bottom: 1px solid #a0a0a0;
   transition: all 1s ease;
 }
 
@@ -360,6 +360,7 @@ p a:hover, p a:focus  {
 .projectBlock > .container-fluid{
   position: relative;
   height: 100%;
+  background: black;
   /*display: flex;*/
 }
 
@@ -369,7 +370,7 @@ p a:hover, p a:focus  {
 
 .videoWrapper, .imagesWrapper{
   position: absolute;
-  width: 70%;
+  width: 65%;
   top:40px;
   left:8.333%;
 }
@@ -397,6 +398,66 @@ p a:hover, p a:focus  {
   font-family: 'editor', Georgia, serif;
   letter-spacing: 0px;
   line-height: 39px;
+}
+
+.infoTitle{
+  /*width: 100%;
+  flex: 1;
+  -webkit-flex: 1;*/
+  flex-shrink: 0;
+}
+
+.infoContainer{
+  display: flex;
+  flex-direction: column;
+  /*flex: 1;*/
+
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  /*-webkit-flex: 1;*/
+
+  max-height: 100%;
+}
+
+.infoContent{
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+  overflow: hidden;
+  position: relative;
+  mix-blend-mode: hard-light;
+  padding-bottom: 15px;
+  max-height: 100%;
+}
+
+.infoContent:after{
+  position: absolute;
+  bottom: 0px;
+  height: 30px;
+  content: "";
+  width: 100%;
+  background: linear-gradient(transparent, gray);
+  background: -moz-linear-gradient(transparent, gray);
+  background: -webkit-linear-gradient(transparent, gray);
+}
+
+.infoContent.infoContentAfter{
+  -webkit-mask-image: -webkit-gradient(linear, left top,left bottom,color-stop(0.80,  rgba(0,0,0,1)),color-stop(1,  rgba(0,0,0,0)));
+  mix-blend-mode: unset;
+}
+
+.infoContent.infoContentAfter:after{
+  display: none!important;
+}
+
+.infoLinks{
+  display: flex;
+  display: -webkit-flex;
+  flex-shrink: 0;
+  -webkit-flex-shrink: 0;
+}
+
+.projectBlock > .container > .row{
+  height: 100%;
 }
 
 #mobileWrapper h1 {
@@ -752,5 +813,17 @@ ul.navbar-nav {
   }
   .my-hidden-md.my-hidden-lg{
     visibility: hidden!important;
+  }
+}
+
+@media (min-width: 1500px){
+  .videoWrapper, .imagesWrapper{
+    width: 70%;
+  }
+
+@media (min-width: 1500px){
+  .infoContainer{
+    margin-left: 66.66666666666666%!important;
+    width: 25%!important;
   }
 }
