@@ -468,6 +468,10 @@ p a:hover, p a:focus  {
   padding: 0 20px 0;
 }
 
+#mobileWrapper h5{
+  padding: 0 20px 0;
+}
+
 #mobileWrapper p{
   padding: 0 20px 0;
   overflow: hidden;

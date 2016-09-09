@@ -155,6 +155,9 @@ if(!device){
     map.zoomTo(4.5,{duration:2000})
     map.easeTo({zoom:7,bearing:0, duration:2000, animate:true})
   })
+}else{
+  $('#coordinates').text('Milano');
+  $('#coordinates').css('border-bottom','none')
 }
 
 $(window).scroll(function() {
