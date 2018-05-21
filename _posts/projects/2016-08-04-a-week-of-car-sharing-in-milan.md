@@ -2,7 +2,7 @@
 layout: post
 categories: projects
 project_title: Seven days of carsharing in Milan
-link: http://labs.densitydesign.org/carsharing/
+link: https://densitydesign.github.io/carsharing/
 media:
   video: carsharing.mp4
   images:
