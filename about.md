@@ -55,7 +55,7 @@ expertises:
   - Graphic Design
   - Web Design
 vat: IT09323480963
-headquarter: Via Castelvetro, 18 - 20154 Milano
+headquarter: Piazza Prealpi, 3 - 20155 Milano
 custom_js: calibro-about.js
 ---
 Calibro is a multidisciplinary design studio established in 2015 and based in Milan, Italy.
