@@ -10,7 +10,7 @@ media:
     - name: chemical_02.jpg
     - name: chemical_03.jpg
     - name: chemical_04.jpg
-  placeholder: chemical_01.jpg
+  placeholder: chemical.jpg
   images-mobile:
     - name: chemical_01.jpg
     - name: chemical_02.jpg
