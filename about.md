@@ -61,7 +61,7 @@ jobs:
   - label: Intern
     description: We look for students and recent graduates that want to develop their skills in the field of data visualization, UX/UI or web development. You will join us for period of 3-6 months and work on different type of projects. 
   - label: Collaborators
-    description: We are a small studio and we like it! We always look for professionals and collaborators that can join our team for specific projects. If you are freelancer in UX/UI design, visual design, web development, data science or a independent researcher, drop us a message and we would be very glad to have a chat with you. 
+    description: We are a small studio and we like it. We always look for professionals and collaborators that can join our team for specific projects. If you are freelancer in UX/UI design, visual design, web development, data science or a independent researcher, drop us a message and we would be very glad to have a chat with you. 
 headquarter: Piazza Prealpi, 3 - 20155 Milano
 custom_js: calibro-about.js
 ---
