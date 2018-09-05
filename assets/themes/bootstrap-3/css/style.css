@@ -265,6 +265,21 @@ p a:hover, p a:focus  {
   font-size: 30px;
 }
 
+.jobs {
+  padding-top: 50px;
+}
+
+.jobs p {
+  font-size: 20px;
+  line-height: 1.428571429;
+}
+
+.jobs b {
+  font-size: 20px;
+  line-height: 42px;
+
+}
+
 #home h3{
   font-family: 'editor', serif;
   font-size: 32px;

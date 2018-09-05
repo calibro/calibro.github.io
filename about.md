@@ -55,6 +55,13 @@ expertises:
   - Graphic Design
   - Web Design
 vat: IT09323480963
+jobs:
+  - label: Full stack developer
+    description: We look for a motivated full stack developer able to work in team and follow the development of data-driven projects. You should have an experience in back-end development (Python, Node.js), database management (SQL-like DBs, MongoDB) and a good knowledge in front-end development. You will work with the most common web technoligies, frameworks (React, Vue.js) and libraries (d3.js, Bootstrap).
+  - label: Intern
+    description: We look for students and recent graduates that want to develop their skills in the field of data visualization, UX/UI or web development. You will join us for period of 3-6 months and work on different type of projects. 
+  - label: Collaborators
+    description: We are a small studio and we like it! We always look for professionals and collaborators that can join our team for specific projects. If you are freelancer in UX/UI design, visual design, web development, data science or a independent researcher, drop us a message and we would be very glad to have a chat with you. 
 headquarter: Piazza Prealpi, 3 - 20155 Milano
 custom_js: calibro-about.js
 ---
@@ -62,7 +69,6 @@ Calibro is a multidisciplinary design studio established in 2015 and based in Mi
 
 We are interested in exploring new pathways at the intersection between design, data visualization and humanities.
 We use the potential of data visualization and information design to provide innovative and engaging visual tools for clients, users and researchers, embracing complexity and aesthetics.
-
-Our background is in communication design and for several years we worked together at [DensityDesign Research Lab](http://www.densitydesign.org) at Politecnico di Milano. In the past few years we have been involved in research, consulting and teaching activities for several public and private institutions.
+In the past few years we have been involved in research, consulting and teaching activities for several public and private institutions.
 
 For new collaborations and projects contact us at [hello@calib.ro](hello@calib.ro)

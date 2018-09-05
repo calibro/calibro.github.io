@@ -13,6 +13,14 @@
             {% endfor %}
           </ul>
       </span>
+      <div class="jobs">
+      <h5>Job positions</h5>
+       <p>{% for job in page.jobs %}
+        <b>{{ job.label }}</b><br/> {{ job.description }} <a href="mailto:hello@calib.ro?subject=Job Application"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+  <br/><br/>
+        {% endfor %}
+      </p>
+      </div> 
     </div>
     <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-2 col-lg-offset-1 col-sm-12 aboutSide">
       <h5>people</h5>
