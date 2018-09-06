@@ -29,7 +29,8 @@ clients:
   - Luxembourg Centre for Contemporary and Digital History (C²DH) 
   - Arup
   - Anthropocene Observatory
-  - Biennale of Venezia
+  - dotdotdot
+  - Data4Change
   - Code for Africa
   - The Outpost Magazine
   - WIRED Italy
