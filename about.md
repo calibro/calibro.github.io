@@ -25,20 +25,20 @@ social:
     label: Calibro's Channel
     link: https://telegram.me/studiocalibro
 clients:
+  - Mozilla Foundation
+  - Luxembourg Centre for Contemporary and Digital History (C²DH) 
   - Arup
   - Anthropocene Observatory
   - Biennale of Venezia
   - Code for Africa
   - The Outpost Magazine
   - WIRED Italy
-  - Corriere della Sera
   - Sciences Po Médialab
   - Hogeschool van Amsterdam
   - Visualizing Impact
   - ENSCI Les Ateliers
   - PARK Associati
   - University of Amsterdam
-  - University of Chicago Booth School of Business
   - ZKM Karlsruhe
 expertises:
   - Data Visualization
