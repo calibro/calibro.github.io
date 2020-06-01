@@ -398,9 +398,9 @@ p a:hover, p a:focus  {
   top: 0;
   left: 0;
   pointer-events: none;
-  background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(11,11,11,0.65) 100%);
-  background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(11,11,11,0.65) 100%);
-  background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(11,11,11,0.65) 100%);
+  background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(11,11,11,0.90) 100%);
+  background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(11,11,11,0.90) 100%);
+  background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(11,11,11,0.90) 100%);
 }
 
 

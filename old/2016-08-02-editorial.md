@@ -24,4 +24,4 @@ media:
 tags : [infographics, data visualization, magazines, graphic design]
 ---
 {% include JB/setup %}
-Besides our love for pixels, we also like print. Some of our recent work includes data visualizations and infographics for magazines such as [Corriere della Sera](http://www.corriere.it/), [Wired](http://www.wired.it/) and [The Outpost](http://www.the-outpost.com/).
+Besides our love for pixels, we also like print. Some of our recent work includes data visualizations and infographics for magazines such as [Corriere della Sera](http://www.corriere.it/), [Wired](http://www.wired.it/), [Chicago Booth Magazine](https://www.chicagobooth.edu/magazine) and [The Outpost](http://www.the-outpost.com/).

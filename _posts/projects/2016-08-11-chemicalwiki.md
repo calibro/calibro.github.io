@@ -20,8 +20,10 @@ media:
 tags : [research, drugs, scraping, webdesign, wikipedia]
 ---
 {% include JB/setup %}
-How does knowledge about risks and potential benefits of drugs travel in Wikipedia? How is the knowledge on Wikipedia about designer drugs established? These are the two main questions we have explored through this second collaboration with [Chemical Youth](https://chemicalyouth.org/). The result is a website were we have collected all the visualizations, protocols and methods used in this multidisciplinary collaboration. 
-
+How does knowledge about risks and potential benefits of drugs travel in Wikipedia? How is the knowledge on Wikipedia about designer drugs established? These are the two main questions we have explored through this second collaboration with [Chemical Youth](https://chemicalyouth.org/). The result is a website were we have collected all the visualizations, protocols and methods used in this multidisciplinary collaboration.
 
 ##### credits
-Designed with [Gabriele Colombo](http://www.densitydesign.org/person/gabriele-colombo/) for [Chemical Youth](http://www.chemicalyouth.org/).
+Project conceived and designed with [Gabriele Colombo](http://www.densitydesign.org/person/gabriele-colombo/).
+
+##### year
+2016

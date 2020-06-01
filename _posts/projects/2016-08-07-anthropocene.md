@@ -2,7 +2,7 @@
 layout: post
 categories: projects
 project_title: Anthropocene Observatory at ZKM
-link: https://www.behance.net/gallery/41864287/Anthropocene-Observatory-at-ZKM
+link: http://calib.ro/anthropoceneobservatory/
 media:
   video:
   images:
@@ -26,3 +26,6 @@ At the GLOBALE: Exo-Evolution exhibition at [ZKM](http://zkm.de/), we designed a
 
 ##### credits
 In collaboration with [Donato Ricci](http://www.medialab.sciences-po.fr/people/donato-ricci/), [Robin de Mourat](https://github.com/robindemourat), [Daniele Ciminieri](http://danieleciminieri.com/#/) for [Anthropocene Observatory](http://territorialagency.com/projects/anthropocene-observatory/).
+
+##### year
+2016
