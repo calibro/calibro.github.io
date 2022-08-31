@@ -80,7 +80,16 @@ a:hover {
 @media screen and (max-width: 800px) {
     .project{
       background-color: #353432;
-      height: 400px;
+      height: 300px;
       position: relative;
+  }
+
+  body{
+    background-color: #252422;
+    color: #989389;
+    font-size: 24px;
+    padding: 10px 5px;
+    font-family: 'Switzer', sans-serif;
+    line-height: 120%;
   }
 }
