@@ -1,0 +1,86 @@
+body{
+  background-color: #252422;
+  color: #989389;
+  font-size: 24px;
+  padding: 30px;
+  font-family: 'Switzer', sans-serif;
+  line-height: 120%;
+}
+
+.white{
+  color:white;
+}
+
+a {
+  color: #989389;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  opacity: 0.9;
+}
+
+.footer{
+  margin: 120px 0 0;
+  color: #555555;
+}
+
+.footer a{
+  color: #555555;
+}
+
+.footer a:hover{
+  color: #989389;
+}
+
+.projects-grid {
+  margin: 24px 0;
+}
+
+.project{
+  background-color: #353432;
+  height: 500px;
+  position: relative;
+}
+
+.project-thumb {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 1s, height 1s;
+}
+
+.project-thumb:hover {
+  width: 90%;
+}
+
+.info {
+  margin-top: 8px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.btn {
+    margin-top: 8px;
+    font-size: 1.6rem;
+}
+
+
+@media screen and (min-width: 1900px) {
+    .project{
+      background-color: #353432;
+      height: 600px;
+      position: relative;
+  }
+}
+
+@media screen and (max-width: 800px) {
+    .project{
+      background-color: #353432;
+      height: 400px;
+      position: relative;
+  }
+}
