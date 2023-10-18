@@ -89,9 +89,14 @@
 	<div class="row">
 		<div class="col-12 col-md-8">
 			<p class="fs-4 lh-sm">
-				<span class="text-white">Calibro</span> is a design studio based in Milan focused on tailoring
+				<span class="text-white">Calibro</span> is a design studio founded by Matteo Azzi and Giorgio Uboldi based in Milan focused on tailoring
 				visual tools to explore and visualize data, complex information and archives.
 			</p>
+
+			<p class="fs-4 lh-sm">
+				<span class="text-white">Calibro</span> does research and teaches at Design Academy Eindhoven, UNIRSM Design, ISIA Urbino, Cfp Bauer and Scuola Politecnica di Design.
+			</p>
+
 			<p class="fs-4 lh-sm">
 				For new collaborations contact us at <a
 					class="text-decoration-none"
