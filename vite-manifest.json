@@ -24,12 +24,12 @@
     "src": "src/fonts/Switzer-VariableItalic.ttf"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-3433a69b.js",
+    "file": "_app/immutable/start-68b53a7c.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_index-6f44149d.js",
-      "_singletons-09ae81a2.js"
+      "_singletons-62e9187f.js"
     ],
     "dynamicImports": [
       ".svelte-kit/generated/nodes/0.js",
@@ -58,16 +58,16 @@
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-a0e58189.js",
+    "file": "_app/immutable/components/error.svelte-2c6cd434.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
       "_index-6f44149d.js",
-      "_singletons-09ae81a2.js"
+      "_singletons-62e9187f.js"
     ]
   },
   "src/routes/+page.svelte": {
-    "file": "_app/immutable/components/pages/_page.svelte-c47de5ec.js",
+    "file": "_app/immutable/components/pages/_page.svelte-c4d478f1.js",
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -96,8 +96,8 @@
       "__layout-8d2a742b.js"
     ]
   },
-  "_singletons-09ae81a2.js": {
-    "file": "_app/immutable/chunks/singletons-09ae81a2.js",
+  "_singletons-62e9187f.js": {
+    "file": "_app/immutable/chunks/singletons-62e9187f.js",
     "imports": [
       "_index-6f44149d.js"
     ]
@@ -118,7 +118,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-cb8fa891.js",
+    "file": "_app/immutable/chunks/1-ba61c2e6.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -126,7 +126,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-8c665631.js",
+    "file": "_app/immutable/chunks/2-05dfe9e3.js",
     "src": ".svelte-kit/generated/nodes/2.js",
     "isDynamicEntry": true,
     "imports": [
