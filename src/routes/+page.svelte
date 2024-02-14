@@ -1,27 +1,65 @@
 <script>
 	const projects = [
+
+	{
+			title: 'RAWGraphs',
+			year: '2013–Ongoing',
+			description: 'A free and open source tool for data visualization',
+			link: 'https://www.rawgraphs.io/',
+			image: 'rawgraphs.jpg'
+		},
 		{
 			title: 'Archivio Meraviglioso',
+			description: 'A project to discover the history of a Milanese charitable organization',
 			year: '2022',
 			link: 'https://archiviomeraviglioso.it/',
 			image: 'archivio_meraviglioso.jpg'
 		},
 		{
-			title: 'RAWGraphs',
-			year: '2013–Ongoing',
-			link: 'https://www.rawgraphs.io/',
-			image: 'rawgraphs.jpg'
+			title: 'Digital Benin',
+			description: 'A project about data',
+			year: '2023-Ongoing',
+			link: 'https://digitalbenin.org/',
+			image: 'digital-benin.jpg'
+		},	
+		{
+			title: '175 Joer Post',
+			description: 'A project about the history of the Entreprise des Postes et Télécommunications of Luxembourg',
+			year: '2020',
+			link: 'https://175anspost.lu/',
+			image: '175.jpg'
 		},
-
+		{
+			title: 'The Palestinian Museum Digital Archive',
+			description: 'A website to discover thousands of documents about the History of Palestine and its people',
+			year: '2022-2023',
+			link: 'https://countryofwords.supdigital.org/timeline/',
+			image: 'palarchive.png'
+		},	
 		{
 			title: 'Global Archives Online',
+			description: 'A directory of open digital collections for the study of colonial and global history',
 			year: '2022',
 			link: 'https://globalarchives.lnu.se/',
 			image: 'global.jpg'
 		},
-
+		{
+			title: 'Country of Words',
+			description: 'A digital transnational atlas for Palestinian Literature',
+			year: '2023',
+			link: 'https://countryofwords.supdigital.org/timeline/',
+			image: 'palread.png'
+		},	
+		{
+			title: 'Sai cosa respiri?',
+			description: 'A digital experience to explore the concentration of NO2 in Milan',
+			year: '2022',
+			link: 'https://calib.ro/cpl-no2/',
+			image: 'no2map.png'
+		},	
 		{
 			title: 'Minett Stories',
+			description: 'A digital publication about  the multiple histories and identities of a region',
 			year: '2022',
 			link: 'https://minett-stories.lu/',
 			image: 'minett.jpg'
@@ -29,13 +67,23 @@
 
 		{
 			title: 'V-Data Research website',
+			description: 'A website for a research about the value of digital data and surveillance capitalism',
 			year: '2022',
 			link: 'https://vdataresearch.com/',
 			image: 'vdata.jpg'
 		},
 
 		{
+			title: 'DEPT.',
+			description: 'A series of workshops and exhibitions on ways to describe our present condition',
+			year: '2019',
+			link: 'https://dept.today/workshops/out-there.html',
+			image: 'drugo-4.jpg'
+		},
+
+		{
 			title: 'Prospecting an In-Between',
+			description: 'A website about the history and identities of the region Eupen-Malmedy-Sankt Vith',
 			year: '2021',
 			link: 'https://timestrata.be/',
 			image: 'timestrata.jpg'
@@ -43,27 +91,23 @@
 
 		{
 			title: 'Data Availability and Data Gaps (UNDP)',
+			description: 'Putting a spotlight on data gaps to mobilize collective action and support in the Arab region',
 			year: '2021',
 			link: 'https://datagaps.arabdevelopmentportal.com/undp-data-gaps/',
 			image: 'undp.jpg'
 		},
 
 		{
-			title: 'Chemical Youth website',
+			title: 'Chemical Youth',
+			description: 'A website to explore a research project about the use of chemicals in everyday life of youth',
 			year: '2021',
 			link: 'https://chemicalyouth.org',
 			image: 'chemicalyouth.jpg'
 		},
 
 		{
-			title: '175 Joer Post',
-			year: '2020',
-			link: 'https://175anspost.lu/',
-			image: '175.jpg'
-		},
-
-		{
 			title: "BGL, l'histoire d'un siècle",
+			description: 'Retracing the history of BGL BNP Paribas from 1919 to the present day',
 			year: '2019',
 			link: 'https://depuis100ans.lu/',
 			image: 'bgl.jpg'
@@ -71,16 +115,24 @@
 
 		{
 			title: 'Cozy/Flat',
+			description: 'A visual inquiry into the private spaces we share on Airbnb',
 			year: '2018',
 			link: 'https://cozyfl.at/',
 			image: 'cozy.jpg'
 		},
-
 		{
 			title: 'Éischte Weltkrich',
+			description: 'A website to remember the Great War in Luxembourg',
 			year: '2018',
 			link: 'https://ww1.lu/',
 			image: 'ww1.jpg'
+		},
+		{
+			title: 'The Anthropocene Observatory Explorer',
+			description: 'An interactive installation at ZKM to explore an archive of interviews about the Antrhopocene',
+			year: '2015',
+			link: 'https://calib.ro/anthropoceneobservatory/',
+			image: 'antrhropocene.jpeg'
 		}
 	];
 </script>
@@ -135,7 +187,7 @@
 						<div class="info fs-4 lh-sm mt-2">
 							<p class="text-decoration-none">
 								<span class="text-white">
-									{project.title}
+									{project.title} <span class="text-grey">{project.description} </span>
 								</span><br />{project.year}
 							</p>
 						</div>
