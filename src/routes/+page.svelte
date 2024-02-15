@@ -17,7 +17,7 @@
 		},
 		{
 			title: 'Digital Benin',
-			description: 'A project about data',
+			description: 'A project to explore data and documents about looted artifacts from the Kingdom of Benin',
 			year: '2023-Ongoing',
 			link: 'https://digitalbenin.org/',
 			image: 'digital-benin.jpg'
