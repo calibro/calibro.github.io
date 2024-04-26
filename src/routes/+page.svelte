@@ -33,7 +33,7 @@
 			title: 'The Palestinian Museum Digital Archive',
 			description: 'A website to discover thousands of documents about the History of Palestine and its people',
 			year: '2022-2023',
-			link: 'https://countryofwords.supdigital.org/timeline/',
+			link: 'https://www.palarchive.org/',
 			image: 'palarchive.png'
 		},	
 		{
